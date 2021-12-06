@@ -600,32 +600,32 @@
         }
     }
     
-
-    function TurnOnOccupation(){
-        var chartOccupation = document.getElementById("viz_occupation");
-        var chartOccupationAfter = document.getElementById("viz_occupation_after");
-        
-
-        
-        if (chartOccupation.innerHTML == "") {
-            buildOccupationChart();
-            chartOccupationAfter.innerHTML = "";
-        }
-    }
-    window.onload = function() {
-//        window.onload();
-        TurnOnOccupation();
-    }
-    function TurnOnOccupationAfter(){
-        var chartOccupation = document.getElementById("viz_occupation");
-        var chartOccupationAfter = document.getElementById("viz_occupation_after");
-        
-        
-        if (chartOccupationAfter.innerHTML == "") {
-            buildOccupationAfterChart();
-            chartOccupation.innerHTML = "";
-        }
-    }
+//
+//    function TurnOnOccupation(){
+//        var chartOccupation = document.getElementById("viz_occupation");
+//        var chartOccupationAfter = document.getElementById("viz_occupation_after");
+//        
+//
+//        
+//        if (chartOccupation.innerHTML == "") {
+//            buildOccupationChart();
+//            chartOccupationAfter.innerHTML = "";
+//        }
+//    }
+//    window.onload = function() {
+////        window.onload();
+//        TurnOnOccupation();
+//    }
+//    function TurnOnOccupationAfter(){
+//        var chartOccupation = document.getElementById("viz_occupation");
+//        var chartOccupationAfter = document.getElementById("viz_occupation_after");
+//        
+//        
+//        if (chartOccupationAfter.innerHTML == "") {
+//            buildOccupationAfterChart();
+//            chartOccupation.innerHTML = "";
+//        }
+//    }
     
     
     
@@ -704,7 +704,7 @@
     window.onload = function() {
 //        window.onload();
         TurnOnTotalMigrant();
-        TurnOnOccupation();
+//        TurnOnOccupation();
         TurnOnHND2019();
         TurnOnSLV2019();
         TurnOnGTM2019();
