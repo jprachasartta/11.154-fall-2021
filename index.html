@@ -628,12 +628,11 @@
     
     
     
-    
 
     
     
 
-    function TurnOnHND2019(){
+       function TurnOnHND2019(){
         var chartHND2019 = document.getElementById("viz_treemap_hnd_2019");
         var chartHND2020 = document.getElementById("viz_treemap_hnd_2020");
         
@@ -702,10 +701,10 @@
     window.onload = function() {
 //        window.onload();
         TurnOnTotalMigrant();
-        TurnOnOccupation();
         TurnOnHND2019();
         TurnOnSLV2019();
         TurnOnGTM2019();
+        TurnOnOccupation();
     }
     
     function TurnOnGTM2020(){
@@ -718,6 +717,7 @@
             chartGTM2019.innerHTML = "";
         }
     }
+
 
     
     
