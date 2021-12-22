@@ -189,10 +189,10 @@
                         <br>
                         
                         <p>
-                        Guatemala, Honduras and El Salvador, which comprise the Northern Triangle, face many of the political, economic and social issues that contribute to the region's overall instability. 
+                        Guatemala, Honduras and El Salvador, which comprise the Northern Triangle, face many of the political and economic issues that contribute to the region's overall instability. 
                         <br>
                         <br>
-                        Economically, The Northern Triangle is one of the poorest regions in the Western Hemisphere. By GDP per capita, all three countries are in the bottom six of the 32 Latin American and Caribbean countries.
+                        Economically, The Northern Triangle is one of the poorest regions in the Western Hemisphere. By GNP per capita, all three countries are in the bottom six of the 32 Latin American and Caribbean countries. In 2020, Guatemala's GNP per capita was $4,603, El Salvador's was $3,799, and Honduras' was $2,406, with the Northern Triangle's average GNP per capita being approximately $3,603.
                         <br>
                         <br>
                             
@@ -201,7 +201,7 @@
                         <br>
                             
                 
-                        Hondurans account for the largest share of Northern Triangle migrants intercepted by U.S. border authorities, followed by Guatemalans and Salvadorans respectively. Given the area's high levels of poverty, violence, and insecurity, the Northern Triangle's humanitarian crisis has gotten worse in the last year. Nearly 15% of those surveyed by the World Food Programme in January 2021 said they were making concrete plans to leave their home country.
+                        Hondurans account for the largest share of Northern Triangle migrants intercepted by U.S. border authorities, followed by Guatemalans and then Salvadorans. Given the area's high levels of poverty, violence, and insecurity, the Northern Triangle's humanitarian crisis has only gotten worse in the last year. Nearly 15% of those surveyed by the World Food Programme in January 2021 said they were making concrete plans to leave their home country.
                         </p>
                         
                     </div>
@@ -277,7 +277,7 @@
                     <div id="content_l_9">
                         
                         <br>
-                        <p>According to the interview conducted by the World Food Programme in 2021, on average, 28% of migrants from Honduras, El Salvador and Guatemala had previously worked in agricultural productions or labor. </p>
+                        <p>According to the interview conducted by the World Food Programme in 2021, on average, 28% of migrants from Hunduras, El Salvador and Guatemala had previously worked in agricultural productions or labor. </p>
                         
                         <br>
                        
@@ -288,7 +288,7 @@
                 <div class="col-3 ">
                     <div id="content_r_9">
                         <br><br><br><br><br><br><br><br><br><br><br>
-                        <hr1>On average, 28% of migrants from <hr1b>Honduras</hr1b>, <hr1p>El Salvador</hr1p> and <hr1g>Guatemala</hr1g> had previously worked in agricultural productions or labor.</hr1>
+                        <hr1>On average, 28% of migrants from <hr1b>Hunduras</hr1b>, <hr1p>El Salvador</hr1p> and <hr1g>Guatemala</hr1g> had previously worked in agricultural productions or labor.</hr1>
                     </div>
                     
                 </div>
@@ -516,11 +516,9 @@
                         <br>
                         <p>
     
-                        Migration indeed is a complex issue. Not only that it can mean greater insecurity for the population of these countries, in the long run, migration can negatively impact the global food supply chain as these countries are exporters of agricultural products to the global market. 
+                        Migration in deed is a complex issue. Not only that it can mean greater insecurity for the population of these countries, in the long run, migration can negatively impact the global food supply chain as these countries are exporters of agricultural products to the global market. 
                             
-                        While most research focuses on the drivers such as violence and economic factors, it is also crucial to analyze the impact it has at both the local and the global scales. Our finding suggests that there is no direct correlation between outward migrantion and the global agricultural supply chain. However, this is only part of the story. It can be argued that other interrelated factors, such as Free Trade Agreements, and scales of operation, also account for the change in the global agricultural supply chain. Therefore, 
-                        they should also be analyzed in relation to what was analyzed in this study to understand the extent of the intertwined root causes of change in the global agricultural supply chain trend.
-                            
+                        While most research focuses on the drivers such as violence and economic factors, it is also crucial to analyze the impact it has at both the local and the global scales. Our finding suggests that there is no direct correlation between outward migrantion and the global agricultural supply chain. However, this is only part of the story. It can be argued that other interrelated factors, such as Free Trade Agreements, and scales of operation, also account for the change in the global agricultural supply chain. Therefore, they should also be analyzed in relation to what was analyzed by this study.
                             
                         
                             
@@ -600,32 +598,32 @@
         }
     }
     
-//
-//    function TurnOnOccupation(){
-//        var chartOccupation = document.getElementById("viz_occupation");
-//        var chartOccupationAfter = document.getElementById("viz_occupation_after");
-//        
-//
-//        
-//        if (chartOccupation.innerHTML == "") {
-//            buildOccupationChart();
-//            chartOccupationAfter.innerHTML = "";
-//        }
-//    }
-//    window.onload = function() {
-////        window.onload();
-//        TurnOnOccupation();
-//    }
-//    function TurnOnOccupationAfter(){
-//        var chartOccupation = document.getElementById("viz_occupation");
-//        var chartOccupationAfter = document.getElementById("viz_occupation_after");
-//        
-//        
-//        if (chartOccupationAfter.innerHTML == "") {
-//            buildOccupationAfterChart();
-//            chartOccupation.innerHTML = "";
-//        }
-//    }
+
+    function TurnOnOccupation(){
+        var chartOccupation = document.getElementById("viz_occupation");
+        var chartOccupationAfter = document.getElementById("viz_occupation_after");
+        
+
+        
+        if (chartOccupation.innerHTML == "") {
+            buildOccupationChart();
+            chartOccupationAfter.innerHTML = "";
+        }
+    }
+    window.onload = function() {
+//        window.onload();
+        TurnOnOccupation();
+    }
+    function TurnOnOccupationAfter(){
+        var chartOccupation = document.getElementById("viz_occupation");
+        var chartOccupationAfter = document.getElementById("viz_occupation_after");
+        
+        
+        if (chartOccupationAfter.innerHTML == "") {
+            buildOccupationAfterChart();
+            chartOccupation.innerHTML = "";
+        }
+    }
     
     
     
@@ -704,7 +702,7 @@
     window.onload = function() {
 //        window.onload();
         TurnOnTotalMigrant();
-//        TurnOnOccupation();
+        TurnOnOccupation();
         TurnOnHND2019();
         TurnOnSLV2019();
         TurnOnGTM2019();
@@ -1347,7 +1345,7 @@ console.log(d, i);
 
       .html( subgroupName + ": " + Math.round(parseFloat(subgroupValue) ) + "%")
       .style("left", (d3.mouse(this)[0] +160) + "px")
-      .style("top", (d3.mouse(this)[1] +30) + "px")
+      .style("top", (d3.mouse(this)[1] +200) + "px")
 
     }
 
